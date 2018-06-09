@@ -9,14 +9,14 @@ Get stories by `GET /searchnews?query={keyword}`
 All the results from `/searchnews` will return like the following json format:
 ```
 [
-	{
-		"title": "Show HN: Interactive guitar scales diagrams",
-		"time": 1528544086,
-		"type": "story",
-		"score": 121,
-		"url": "https://grunfy.com/scaler.html"
-	},
-	...
+  {
+     "title": "Show HN: Interactive guitar scales diagrams",
+     "time": 1528544086,
+     "type": "story",
+     "score": 121,
+     "url": "https://grunfy.com/scaler.html"
+  },
+  ...
 ]
 ```
 
