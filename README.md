@@ -34,7 +34,7 @@ From the project root directory run the following:
 npm start
 ```
 
-Running the test script
+Running the Test Script
 -----------------------
 From the project root directory run the following:
 ```
