@@ -10,11 +10,11 @@ All the results from `/searchnews` will return like the following json format:
 ```
 [
 	{
-		title: 'New update to Github',
-		time: 152148712,
-		type: 'story',
-		score: 203,
-		url: 'https://someurl.com'
+		"title": "Show HN: Interactive guitar scales diagrams",
+		"time": 1528544086,
+		"type": "story",
+		"score": 121,
+		"url": "https://grunfy.com/scaler.html"
 	},
 	...
 ]
