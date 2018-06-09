@@ -36,7 +36,7 @@ npm start
 
 Running the Test Script
 -----------------------
-From the project root directory run the following:
+Open another command line tool. From the project root directory run the following:
 ```
 npm test
 ```
