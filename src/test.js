@@ -76,13 +76,14 @@ describe('Unit Tests', function() {
 				});
 		});
 		
-		it('should return 404 status for random keyword', function() {
+		it('should return empty array for random / non-existing keyword', function() {
 			return chai.request(server)
 				.get('/searchnews')
 				.query({ query: 'asdffgdertret' }) // /searchnews?query=asdffgdertret
 				.then(res => {
-					expect(res).to.have.status(404);
-					expect(res.text).to.equal('Not Found');
+					expect(res).to.have.status(200);
+					expect(res).to.be.json;
+					expect(res.body).to.be.an('array').that.is.empty;
 				})
 				.catch(err => {
 					throw err;

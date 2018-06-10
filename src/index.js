@@ -50,11 +50,6 @@ app.get('/searchnews', asyncHandler(async (req, res, next) => {
 		}
 	}));
 	
-	if(results.length === 0){
-		res.status(404);
-		res.send('Not Found');
-	}
-	
 	//return all the search results
 	res.json(results);
 }));
