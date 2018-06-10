@@ -40,3 +40,12 @@ Open another command line tool. From the project root directory run the followin
 ```
 npm test
 ```
+
+Routes
+------
+Here is an overview of the routes for the API.
+
+|URL                             | HTTP Verb | Action                                                           |
+|--------------------------------| :-------: | ---------------------------------------------------------------- |
+|/searchnews                     | GET       | List all the top stories                                         |
+|/searchnews?query={keyword}     | GET       | List relevant stories by the provided keyword                    |
